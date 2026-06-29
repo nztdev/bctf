@@ -1,0 +1,45 @@
+{
+  "name": "BCTF — Bitcoin Community Trust Fund",
+  "short_name": "BCTF",
+  "description": "A long-term, community-owned Bitcoin treasury governed by constitution and code.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Treasury",
+      "short_name": "Treasury",
+      "description": "View the live treasury dashboard",
+      "url": "/?page=treasury",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Governance",
+      "short_name": "Vote",
+      "description": "View and vote on proposals",
+      "url": "/?page=governance",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
